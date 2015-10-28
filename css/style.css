@@ -124,8 +124,109 @@ html,body
 {
     background-color: #36293d;
 }
+.aboutus,.contright
+{
+    text-align: left;
+    margin-top: 2%;
+}
+.aboutus p.mis,.contright h1,p.ctfootermain
+{
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	width: 100%;
+	background-color: #392c40;
+	text-transform: uppercase;
+        margin-left: 0%;
+        text-align: center;
+}
+.aboutus p,.contright p
+{
+	font-family: Arial;
+	color: #7b7280;
+	line-height: 1.7;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 2%;
+        text-align: justify;
+}
+a.readmore
+{
+	margin-left: 2%;
+        margin-right: 3%;
+	width: 10%;
+        background-color: #ff5241;
+        text-decoration: none;
+        font-family: Arial;
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.75);
+        padding: 0.5%;
 
+}
 
+a.readmore:hover
+{
+    background-color: #6fbec6;
+}
+.contright h1
+{
+  margin-top: 0px;  
+}
+.contright
+{
+    margin-top: 0%;
+}
+
+.ctfootermain
+{
+    
+}
+.ctfooter
+{
+    text-align:justify;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    font-family: Arial;
+    color: #938b8b;
+}
+.contright h1,p.ctfootermain
+{
+    border-radius: 25px;
+    background-color: #8AC007;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.foolcenter,.foolright
+{
+    display: none;
+}
+.foot ul
+{
+    padding-left: 2%;
+}
+.foot ul li,.foot ul li p
+{
+    text-decoration-style: none;
+    display: inline;
+    font-family: Arial;
+    color: #fff;
+}
+.foot ul li a
+{
+    text-decoration: none;
+    font-family: Arial;
+    color: #fff;
+    margin-right: 1%;
+}
+.foot
+{
+    width: 100%;
+    background-color:#6fbec6;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
 
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
